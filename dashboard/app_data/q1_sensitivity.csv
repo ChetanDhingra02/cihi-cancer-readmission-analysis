@@ -1,0 +1,7 @@
+analysis,episodes,urgent_readmit_pct
+Primary (discharged home),32301,15.6
+Complete case: timing-ambiguous episodes excluded,26851,14.0
+Definite only (whole interval inside window),32301,11.7
+All live discharges (not only home),37511,16.5
+Outcome = readmission entering via ED,32301,13.5
+"Outcome = any 30-day return, planned included",32301,18.6

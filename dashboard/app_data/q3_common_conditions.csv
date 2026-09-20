@@ -1,0 +1,16 @@
+code,n_episodes,n_occurrences,condition,pct_of_episodes
+T81,2017,2551,"Complication of a procedure, not elsewhere classified",4.63
+E87,1118,1268,"Fluid, electrolyte and acid-base disturbance",2.57
+K91,883,919,Post-procedural disorder of the digestive system,2.03
+F05,749,749,Delirium,1.72
+I95,696,698,Hypotension (low blood pressure),1.6
+N39,687,689,Urinary tract infection,1.58
+D70,684,684,Neutropenia (low white cell count),1.57
+N17,532,533,Acute kidney injury,1.22
+R50,517,532,Fever of unknown origin,1.19
+U07,479,479,COVID-19,1.1
+I48,439,452,Atrial fibrillation and flutter,1.01
+R11,435,437,Nausea and vomiting,1.0
+J18,428,428,Pneumonia,0.98
+J96,395,403,Respiratory failure,0.91
+K12,362,363,Other,0.83

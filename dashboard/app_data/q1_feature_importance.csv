@@ -1,0 +1,16 @@
+feature,importance
+urgent_admission,0.3395
+final_los_group,0.1803
+had_procedure,0.0633
+cancer_is_main_reason,0.05
+cancer_site_Haematologic,0.0455
+comorbidity_count,0.0379
+cancer_has_spread,0.0353
+palliative_care,0.0272
+sex_M,0.0202
+post_admission_condition,0.0183
+cancer_site_Secondary (spread),0.0148
+cancer_site_Digestive,0.0143
+age_band_60-69,0.0139
+age_band_80 plus,0.0134
+age_band_70-79,0.0127

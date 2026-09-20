@@ -1,0 +1,41 @@
+# ---------------------------------------------------------------------------
+# Restricted CIHI material. None of this may ever enter the repository.
+# A .gitignore added after a file has been committed is not sufficient: if any
+# of these were ever committed, rewrite the history before making the
+# repository public.
+# ---------------------------------------------------------------------------
+*.dat
+*.sav
+*.sas7bdat
+*.parquet
+*.duckdb
+*.duckdb.wal
+clin_sample*
+dad_parsed*
+cohort.parquet
+episode_level.parquet
+analysis_all_admissions.parquet
+layout.csv
+*.xls
+*.xlsx
+*.pdf
+
+# Analysis workspace: outputs are copied into app_data/ deliberately, by name.
+output/
+data/
+raw/
+reference/layout*
+**/internal/
+
+# Local environments and editor noise
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
+.streamlit/secrets.toml
+
+# Allow the published aggregate tables through, despite the rules above.
+!app_data/*.csv

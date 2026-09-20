@@ -1,0 +1,7 @@
+table,row,reason
+q1_rate_by_cancer_site,Unknown primary,group total below 50
+q1_rate_by_province,Territories,group total below 50
+table1_characteristics,Age: 0 days to 11 months,group total below 50
+table1_characteristics,Age: newborn,group total below 50
+table1_characteristics,Cancer site: Unknown primary,group total below 50
+table1_characteristics,Province: Territories,group total below 50

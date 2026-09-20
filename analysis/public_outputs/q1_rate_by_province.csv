@@ -1,0 +1,11 @@
+province,episodes,patients,readmitted,percent,ci_low,ci_high
+Territories,,,,,,
+Prince Edward Island,133.0,114.0,25.0,18.8,12.2,26.3
+Saskatchewan,1331.0,1035.0,242.0,18.2,15.8,20.5
+Ontario,16437.0,12818.0,2631.0,16.0,15.4,16.6
+Alberta,4055.0,3164.0,619.0,15.3,14.1,16.5
+British Columbia,6116.0,4904.0,921.0,15.1,14.2,16.1
+New Brunswick,944.0,775.0,138.0,14.6,12.4,16.9
+Nova Scotia,1394.0,1166.0,197.0,14.1,12.1,16.3
+Manitoba,1139.0,979.0,160.0,14.0,12.2,16.2
+Newfoundland and Labrador,721.0,581.0,84.0,11.7,9.3,14.0

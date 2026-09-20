@@ -1,0 +1,2 @@
+trained_on,tested_on,n_test,auc,auc_ci_low,auc_ci_high,calibration_slope,calibration_intercept
+All provinces except Alberta,Alberta episodes only,4055,0.687,0.663,0.709,0.932,-0.02

@@ -1,0 +1,4 @@
+model,odds_ratio_per_quarter,ci_low,ci_high,p_value
+Time only,1.0225,1.0139,1.0311,0.0
+Time plus measured characteristics,1.0234,1.0142,1.0326,0.0
+Time plus measured characteristics and COVID coding,1.0228,1.0136,1.0321,0.0

@@ -1,0 +1,7 @@
+step,n,note
+DAD abstracts in the file,744914,
+Episodes of care after merging transfers,724591,"20,323 abstracts merged into earlier episodes"
+Episodes with invasive cancer (C00-C97),43565,"1,380 episodes with only in-situ or uncertain-behaviour codes excluded"
+Ended in a live discharge,38657,"removed 4,908 episodes ending in death"
+At least 30 days of follow-up remaining,37511,"removed 1,146 ending too near the end of the data window"
+PRIMARY COHORT: discharged home,32301,"removed 5,210 discharged to another facility or absent"

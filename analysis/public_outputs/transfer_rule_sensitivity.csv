@@ -1,0 +1,7 @@
+transfer_rule,kind,episodes_total,primary_cohort_n,urgent_readmissions,urgent_readmit_pct
+Same-day transfer,plausible,730770,32222,5011,15.55
+Same or next day (primary),plausible,724591,32301,5027,15.56
+Within two days,plausible,721416,32350,5040,15.58
+Interval-aware (earliest possible admission),plausible,695244,32644,5086,15.58
+"Interval-aware, 10+ band capped at 90 days",plausible,701384,32595,5080,15.59
+Transfer coding ignored,stress test,719031,32183,4836,15.03

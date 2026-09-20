@@ -1,0 +1,2 @@
+adjusted_risk_if_all_urgent_pct,urgent_ci,adjusted_risk_if_all_planned_pct,planned_ci,risk_difference_pct_points,risk_difference_ci,risk_ratio,risk_ratio_ci,odds_ratio
+16.0,15.6 to 16.5,2.9,2.6 to 3.2,13.1,12.5 to 13.7,5.52,4.93 to 6.13,6.67

@@ -1,0 +1,84 @@
+﻿# ============================================================
+# CIHI restricted / non-public data
+# ============================================================
+*.dat
+*.sav
+*.sas7bdat
+*.parquet
+*.duckdb
+*.duckdb.wal
+*.db
+*.sqlite
+*.xls
+*.xlsx
+
+clin_sample*
+dad_parsed*
+cohort.parquet
+episode_level.parquet
+analysis_all_admissions.parquet
+layout.csv
+
+# Raw / licensed source material
+data/
+raw/
+**/data/
+**/raw/
+
+# Internal / unsuppressed outputs
+**/internal/
+output/
+
+# CIHI source documentation
+Documentation/
+**/Documentation/
+
+# ============================================================
+# Secrets / credentials
+# ============================================================
+.env
+.env.*
+**/.env
+**/.env.*
+**/secrets.toml
+credentials.json
+service-account.json
+*.pem
+*.key
+
+# ============================================================
+# Python / local environments
+# ============================================================
+.venv/
+venv/
+**/.venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# ============================================================
+# Jupyter / editor / OS noise
+# ============================================================
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# Archives / temporary files
+# ============================================================
+*.zip
+*.7z
+*.rar
+*.tmp
+
+# ============================================================
+# Public files intentionally retained
+# ============================================================
+!analysis/public_outputs/*.csv
+!dashboard/app_data/*.csv
+
+# Restricted source documents
+*.pdf

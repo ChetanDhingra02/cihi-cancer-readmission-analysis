@@ -1,0 +1,9 @@
+group,episodes,pct_with_post_admission_condition
+Planned admission,19383,23.0
+Urgent/emergent admission,24182,24.3
+No procedure recorded,6676,11.9
+Procedure recorded,36889,25.9
+Episode under 6 days,21934,8.5
+Episode 6 days or longer,21631,39.1
+Single facility,42171,23.5
+More than one facility,1394,31.0

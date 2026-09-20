@@ -1,0 +1,3 @@
+adjusted_readmission_if_all_urgent_pct,urgent_ci,adjusted_readmission_if_all_planned_pct,planned_ci,risk_difference_pct_points,risk_difference_ci,risk_ratio,risk_ratio_ci,odds_ratio,model
+22.3,21.5 to 23.0,9.0,8.6 to 9.5,13.3,12.4 to 14.1,2.47,2.32 to 2.64,2.94,1. Baseline variables only (primary)
+21.0,,9.7,,11.4,,2.18,,2.54,2. Adding in-hospital course (descriptive)

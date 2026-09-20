@@ -1,0 +1,6 @@
+transfer_rule,cohort_n,readmit_pct,q1_risk_ratio,q1_risk_difference_pts,q2_risk_ratio,q2_risk_difference_pts
+Same-day transfer,32222,15.55,2.44,13.1,5.41,12.9
+Same or next day (primary),32301,15.56,2.47,13.3,5.52,13.1
+Within two days,32350,15.58,2.5,13.4,5.66,13.3
+Interval-aware (earliest possible admission),32644,15.58,2.52,13.4,6.55,14.7
+"Interval-aware, 10+ band capped at 90 days",32595,15.59,2.52,13.5,6.55,14.6

@@ -1,0 +1,4 @@
+code_range,description,in_cohort,reason
+C00-C97,Malignant neoplasms,True,Invasive cancer. This is the study population.
+D00-D09,Carcinoma in situ,False,"Non-invasive. Flagged separately. These are solid-organ sites, not blood or lymph."
+D45-D47,Neoplasms of uncertain behaviour,False,Includes polycythaemia vera and myelodysplastic syndromes. Clinically distinct from invasive malignancy; flagged separately.

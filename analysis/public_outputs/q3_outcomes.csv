@@ -1,0 +1,3 @@
+post_admission_condition,episodes,pct_died,pct_intensive_care,pct_long_stay
+None coded,33235,9.0,8.1,39.6
+At least one coded,10330,18.7,24.0,81.9

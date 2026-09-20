@@ -1,0 +1,100 @@
+name,value,description
+cohort_episodes,32301,Primary cohort: cancer episodes discharged home
+cohort_patients,25495,Distinct patients in the primary cohort
+live_discharge_episodes,37511,All live-discharge cancer episodes
+live_discharge_patients,28506,Patients across all live discharges
+cancer_episodes_total,43565,All invasive-cancer episodes incl. deaths
+total_abstracts,744914,DAD abstracts in the file
+total_episodes,724591,Transfer-linked episodes after merging
+q1_point_estimate_pct,15.6,"Urgent 30-day readmission, point estimate on derived dates"
+q1_events,5027,Urgent 30-day readmissions
+q1_definite_pct,11.7,Definite only: whole possible interval inside the window
+q1_definite_n,3766,Definite urgent readmissions
+q1_complete_case_pct,14.0,Rate excluding timing-ambiguous episodes
+q1_ed_entry_pct,13.5,Readmission entering via ED
+q1_any_return_pct,18.6,Any 30-day return incl. planned
+q1_all_live_pct,16.5,"All live discharges, not only home"
+ambiguous_n,5450,Episodes whose timing cannot be resolved
+ambiguous_pct,16.9,Share ambiguous
+auc_logistic,0.697,Logistic regression AUC
+auc_logistic_ci,0.682 to 0.709,AUC 95% CI
+pr_auc_logistic,0.244,Logistic PR-AUC
+outcome_prevalence,0.143,Test-set outcome prevalence
+brier_logistic,0.1158,Brier score
+calibration_slope,0.982,Calibration slope
+calibration_intercept,-0.135,Calibration intercept
+auc_forest,0.702,Random forest AUC
+auc_alberta,0.687,Alberta geographic holdout AUC
+auc_alberta_ci,0.663 to 0.709,Alberta AUC 95% CI
+alberta_test_n,4055,Alberta test episodes
+q1_risk_urgent_pct,22.3,"Adjusted readmission risk, all urgent"
+q1_risk_planned_pct,9.0,"Adjusted readmission risk, all planned"
+q1_risk_ratio,2.47,Adjusted risk ratio
+q1_risk_ratio_ci,2.32 to 2.64,Adjusted risk ratio 95% CI
+q1_odds_ratio,2.94,Odds ratio for urgent admission
+q2_risk_urgent_pct,16.0,"Adjusted mortality, all urgent"
+q2_risk_planned_pct,2.9,"Adjusted mortality, all planned"
+q2_risk_difference,13.1,"Adjusted risk difference, points"
+q2_risk_difference_ci,12.5 to 13.7,Risk difference 95% CI
+q2_risk_ratio,5.52,Adjusted risk ratio
+q2_risk_ratio_ci,4.93 to 6.13,Risk ratio 95% CI
+q2_odds_ratio,6.67,"Odds ratio, baseline model"
+q2_urgent_share_pct,55.5,Urgent admission share
+q2_ed_share_pct,46.6,Entered via ED share
+q3_post_admission_pct,23.7,Episodes with a post-admission condition
+q3_post_admission_n,10330,Count of those episodes
+q3_died_with_pct,18.7,"Died, with a post-admission condition"
+q3_died_without_pct,9.0,"Died, without one"
+q3_or_baseline,2.3,"Post-admission condition OR, baseline model"
+q4_first_quarter_pct,9.6,"In-hospital mortality, first quarter"
+q4_last_quarter_pct,12.2,"In-hospital mortality, last quarter"
+transfer_spread_pts,0.04,Spread across the three plausible transfer rules
+transfer_stress_pct,15.03,Over-merging stress test result
+transfer_interval_pct,15.58,Interval-aware transfer rule result
+transfer_interval_cohort_n,32644,Cohort size under the interval-aware rule
+transfer_merge_pct_1day,44.9,Merge rate for 1-day receiving stays
+transfer_merge_pct_10plus,8.2,Merge rate for 10-plus-day receiving stays
+transfer_contamination_urgent_pct,3.6,Urgent episodes possibly unmerged transfer continuations
+transfer_contamination_planned_pct,1.3,Planned episodes possibly unmerged transfer continuations
+q1_risk_urgent_full_pct,21.0,"Adjusted readmission risk, urgent, in-hospital-course model"
+q1_risk_planned_full_pct,9.7,"Adjusted readmission risk, planned, in-hospital-course model"
+q1_risk_ratio_full,2.18,"Adjusted risk ratio, in-hospital-course model"
+q1_odds_ratio_full,2.54,"Odds ratio, in-hospital-course model"
+q1_risk_difference,13.3,"Adjusted risk difference, points"
+q1_risk_difference_ci,12.4 to 14.1,Adjusted risk difference 95% CI
+los_assumption_min_pct,15.5,Lowest readmission rate across stay-length assumptions
+los_assumption_max_pct,15.84,Highest readmission rate across stay-length assumptions
+calibration_lowest_actual_pct,2.9,Observed readmission in the lowest risk tenth
+calibration_highest_actual_pct,26.0,Observed readmission in the highest risk tenth
+threshold15_flagged_pct,44.4,Share flagged at the 0.15 threshold
+threshold15_sensitivity,0.707,Sensitivity at the 0.15 threshold
+threshold15_ppv,0.227,Positive predictive value at the 0.15 threshold
+q2_unadjusted_urgent_pct,18.5,"Unadjusted mortality, urgent"
+q2_unadjusted_planned_pct,2.2,"Unadjusted mortality, planned"
+q2_odds_ratio_full,2.72,"Odds ratio, in-hospital-course model"
+q3_top_condition_code,T81,Most frequent post-admission condition
+q3_top_condition_pct,4.63,Share of episodes with the most frequent post-admission condition
+q3_short_stay_pct,8.5,"Post-admission condition share, episodes under 6 days"
+q3_long_stay_pct,39.1,"Post-admission condition share, episodes 6 days or longer"
+planned_returns_n,972,Planned 30-day returns
+planned_returns_chemo_n,224,Planned returns carrying a chemotherapy code
+planned_returns_chemo_pct,23.0,Chemotherapy share of planned returns
+abstracts_merged,20323,Abstracts absorbed into earlier episodes
+q4_peak_quarter_pct,12.8,Highest quarterly mortality
+q4_peak_quarter,7,Quarter with the highest mortality
+q4_linearity_p,0.0623,"p-value, linear trend vs free per-quarter effect"
+threshold15_false_alarm_pct,77.0,"Share of flagged episodes that were not followed by readmission, 0.15 threshold"
+risk_group_spread_multiple,9.0,"Highest risk tenth over lowest, observed"
+historical_v1_readmit_pct,17.4,"Version 1 headline, superseded (over-counted transfers)"
+historical_v3_readmit_pct,15.3,"Version 3 headline, superseded (missed interleaved episodes)"
+historical_v6_transfer_spread_pts,0.03,"Version 6's reported spread across transfer rules, on the raw rate"
+rule_q1_rr_min,2.44,"Q1 risk ratio, lowest across plausible transfer rules"
+rule_q1_rr_max,2.52,"Q1 risk ratio, highest across plausible transfer rules"
+rule_q2_rr_min,5.41,"Q2 risk ratio, lowest across plausible transfer rules"
+rule_q2_rr_max,6.55,"Q2 risk ratio, highest across plausible transfer rules"
+rule_q2_rr_spread,1.14,Q2 risk ratio spread across transfer rules
+rule_q1_rr_spread,0.08,Q1 risk ratio spread across transfer rules
+rule_q2_rr_uncapped,6.55,Q2 risk ratio under the uncapped interval-aware rule
+rule_q2_rr_capped,6.55,Q2 risk ratio under the capped interval-aware rule
+rule_q2_rr_spread_excl_uncapped,1.14,Q2 risk ratio spread excluding the uncapped interval-aware rule
+interval_overlap_transitions_fixed,699,Transitions the interval rule merged in error before the overlap condition was restored (matches the count version 6 fixed on the derived-day rule)

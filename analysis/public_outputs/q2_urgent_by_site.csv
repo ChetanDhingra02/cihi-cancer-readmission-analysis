@@ -1,0 +1,15 @@
+cancer_site,episodes,urgent,via_ed,died,pct_urgent,pct_via_ed,pct_died
+Haematologic,3676,2533,1788,390,68.9,48.6,10.6
+Secondary (spread),4024,2658,2351,446,66.1,58.4,11.1
+"Eye, brain and nervous system",1149,699,588,74,60.8,51.2,6.4
+Respiratory and intrathoracic,3739,2130,1866,491,57.0,49.9,13.1
+Digestive,8063,3858,3323,644,47.8,41.2,8.0
+Soft tissue,499,191,158,34,38.3,31.7,6.8
+Bone and cartilage,200,69,48,11,34.5,24.0,5.5
+Skin,481,150,116,24,31.2,24.1,5.0
+Breast,1495,418,332,90,28.0,22.2,6.0
+Urinary,3159,850,628,135,26.9,19.9,4.3
+Head and neck,798,210,145,41,26.3,18.2,5.1
+Female reproductive,2514,597,451,96,23.7,17.9,3.8
+Male reproductive,2435,549,420,86,22.5,17.2,3.5
+Thyroid and endocrine,1164,93,49,12,8.0,4.2,1.0
