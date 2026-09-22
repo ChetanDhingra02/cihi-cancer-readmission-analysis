@@ -7,7 +7,7 @@ Discharge Abstract Database Research Analytic File, with a Streamlit dashboard f
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.64-FF4B4B?logo=streamlit&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-5.22-3F4F75?logo=plotly&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)
 ![Data](https://img.shields.io/badge/data-licensed%2C%20not%20included-8792a6)
 
 **Deployment runtime:** Python 3.13. I kept the existing badge link unchanged.
