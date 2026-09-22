@@ -10,8 +10,6 @@ Discharge Abstract Database Research Analytic File, with a Streamlit dashboard f
 ![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)
 ![Data](https://img.shields.io/badge/data-licensed%2C%20not%20included-8792a6)
 
-**Deployment runtime:** Python 3.13. I kept the existing badge link unchanged.
-
 > Parts of this material are based on the Canadian Institute for Health Information Discharge
 > Abstract Database Research Analytic Files (sampled from fiscal years 2021-2022, 2022-2023 and
 > 2023-2024). However the analysis, conclusions, opinions and statements expressed herein are
